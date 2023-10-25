@@ -1,0 +1,76 @@
+:root {
+  --primary-color: #ffc500;
+  --secondary-color: #eaae00;
+  --third-color: #00c0cc;
+  --third-color-hover: #02acb8;
+  --dark-color: #302f2f;
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: var(--primary-color);
+}
+
+
+header{
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 250px;
+}
+
+form {
+  background-color: white;
+  /* box-shadow: -3px 9px 18px -3px rgba(0, 0, 0, 0.73); */
+  width: 20%;
+  margin: auto;
+  padding: 30px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  
+}
+
+.form-item input {
+  background-color: var(--primary-color);
+  width: 300px;
+  border-radius: 5px;
+  padding: 12px 20px;
+  border-color: white;
+  box-shadow: -6px 9px 18px -6px rgba(0, 0, 0, 0.73);
+}
+
+.form-text{
+  padding-top: 20px;
+}
+
+.form-text textarea{
+  width: 292px;
+  padding: 12px 20px 80px;
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 5px;
+  border-color: white;
+  box-shadow: -6px 9px 18px -6px rgba(0, 0, 0, 0.73);
+  
+}
+
+.container-botao button{
+  width: 340px;
+  padding: 12px 20px;
+  background-color: var(--third-color);
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+  border-color: white;
+
+}
+/* 
+  - Fonte Roboto. 
+  - Pode utilizar Bootstrap. 
+  - Empregar media-queries para no mínimo a versão mobile. 
+  - Dois arquivos. (Um com a página inicial, o segundo com o formulário (+ header e footer))
+  - 
+*/
